@@ -1,3 +1,7 @@
+
+mod rust_xdo;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Pressing 1 key");
+    rust_xdo::press("1"); 
 }
